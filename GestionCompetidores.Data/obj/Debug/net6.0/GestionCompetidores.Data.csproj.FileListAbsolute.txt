@@ -1,0 +1,14 @@
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Data\bin\Debug\net6.0\GestionCompetidores.Data.deps.json
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Data\bin\Debug\net6.0\GestionCompetidores.Data.runtimeconfig.json
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Data\bin\Debug\net6.0\GestionCompetidores.Data.dll
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Data\bin\Debug\net6.0\GestionCompetidores.Data.pdb
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Data\obj\Debug\net6.0\GestionCompetidores.Data.csproj.AssemblyReference.cache
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Data\obj\Debug\net6.0\GestionCompetidores.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Data\obj\Debug\net6.0\GestionCompetidores.Data.AssemblyInfoInputs.cache
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Data\obj\Debug\net6.0\GestionCompetidores.Data.AssemblyInfo.cs
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Data\obj\Debug\net6.0\GestionCompetidores.Data.csproj.CoreCompileInputs.cache
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Data\obj\Debug\net6.0\GestionCompetidores.Data.dll
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Data\obj\Debug\net6.0\refint\GestionCompetidores.Data.dll
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Data\obj\Debug\net6.0\GestionCompetidores.Data.pdb
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Data\obj\Debug\net6.0\GestionCompetidores.Data.genruntimeconfig.cache
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Data\obj\Debug\net6.0\ref\GestionCompetidores.Data.dll

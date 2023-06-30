@@ -1,0 +1,16 @@
+﻿@using GestionCompetidores.Data.EF;
+
+
+<h1>Crear Competidor</h1>
+<form action="/Competidores/GuardarCompetidor" method="post">
+    <span>Nombre:</span>
+    <input type="text" name="NombreCompetidor" /><br /><br />
+    <label>Deporte:</label>
+    <select name="IdDeporte">
+        @foreach (Deporte deporte in Model)
+        {
+            <option value="@deporte.IdDeporte">@deporte.NombreDeporte</option>
+        }
+    </select><br />
+    <input type="submit" value="Guardar" />
+</form>

@@ -1,0 +1,35 @@
+﻿@using GestionCompetidores.Data.EF
+@model List<Competidor>
+
+
+<h1>ListarCompetidores</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Nombre Competidor
+            </th>
+            <th>
+                Deporte
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (Competidor competidor in @Model) {
+        <tr>
+            <td>
+                    @competidor.NombreCompetidor
+            </td>
+            <td>
+                    @competidor.IdDeporte
+            </td>
+            
+        </tr>
+}
+    </tbody>
+</table>

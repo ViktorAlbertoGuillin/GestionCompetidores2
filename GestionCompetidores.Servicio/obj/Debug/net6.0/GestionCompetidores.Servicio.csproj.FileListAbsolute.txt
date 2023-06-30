@@ -1,0 +1,17 @@
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Servicio\bin\Debug\net6.0\GestionCompetidores.Servicio.deps.json
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Servicio\bin\Debug\net6.0\GestionCompetidores.Servicio.dll
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Servicio\bin\Debug\net6.0\GestionCompetidores.Servicio.pdb
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Servicio\obj\Debug\net6.0\GestionCompetidores.Servicio.csproj.AssemblyReference.cache
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Servicio\obj\Debug\net6.0\GestionCompetidores.Servicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Servicio\obj\Debug\net6.0\GestionCompetidores.Servicio.AssemblyInfoInputs.cache
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Servicio\obj\Debug\net6.0\GestionCompetidores.Servicio.AssemblyInfo.cs
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Servicio\obj\Debug\net6.0\GestionCompetidores.Servicio.csproj.CoreCompileInputs.cache
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Servicio\obj\Debug\net6.0\GestionCompetidores.Servicio.dll
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Servicio\obj\Debug\net6.0\refint\GestionCompetidores.Servicio.dll
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Servicio\obj\Debug\net6.0\GestionCompetidores.Servicio.pdb
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Servicio\obj\Debug\net6.0\ref\GestionCompetidores.Servicio.dll
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Servicio\bin\Debug\net6.0\GestionCompetidores.Servicio.runtimeconfig.json
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Servicio\bin\Debug\net6.0\GestionCompetidores.Data.dll
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Servicio\bin\Debug\net6.0\GestionCompetidores.Data.pdb
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Servicio\obj\Debug\net6.0\GestionCompetidores.Servicio.csproj.CopyComplete
+C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Servicio\obj\Debug\net6.0\GestionCompetidores.Servicio.genruntimeconfig.cache
