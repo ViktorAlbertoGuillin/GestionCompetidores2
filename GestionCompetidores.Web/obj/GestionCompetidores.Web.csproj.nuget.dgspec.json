@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Web\\GestionCompetidores.Web.csproj": {}
+    "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Web\\GestionCompetidores.Web.csproj": {}
   },
   "projects": {
-    "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Data\\GestionCompetidores.Data.csproj": {
+    "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Data\\GestionCompetidores.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Data\\GestionCompetidores.Data.csproj",
+        "projectUniqueName": "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Data\\GestionCompetidores.Data.csproj",
         "projectName": "GestionCompetidores.Data",
-        "projectPath": "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Data\\GestionCompetidores.Data.csproj",
-        "packagesPath": "C:\\Users\\Casa\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Data\\obj\\",
+        "projectPath": "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Data\\GestionCompetidores.Data.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Casa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,21 +85,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Servicio\\GestionCompetidores.Servicio.csproj": {
+    "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Servicio\\GestionCompetidores.Servicio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Servicio\\GestionCompetidores.Servicio.csproj",
+        "projectUniqueName": "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Servicio\\GestionCompetidores.Servicio.csproj",
         "projectName": "GestionCompetidores.Servicio",
-        "projectPath": "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Servicio\\GestionCompetidores.Servicio.csproj",
-        "packagesPath": "C:\\Users\\Casa\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Servicio\\obj\\",
+        "projectPath": "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Servicio\\GestionCompetidores.Servicio.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Servicio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Casa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -109,8 +117,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Data\\GestionCompetidores.Data.csproj": {
-                "projectPath": "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Data\\GestionCompetidores.Data.csproj"
+              "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Data\\GestionCompetidores.Data.csproj": {
+                "projectPath": "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Data\\GestionCompetidores.Data.csproj"
               }
             }
           }
@@ -140,21 +148,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Web\\GestionCompetidores.Web.csproj": {
+    "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Web\\GestionCompetidores.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Web\\GestionCompetidores.Web.csproj",
+        "projectUniqueName": "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Web\\GestionCompetidores.Web.csproj",
         "projectName": "GestionCompetidores.Web",
-        "projectPath": "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Web\\GestionCompetidores.Web.csproj",
-        "packagesPath": "C:\\Users\\Casa\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Web\\obj\\",
+        "projectPath": "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Web\\GestionCompetidores.Web.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Web\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Casa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,17 +174,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Data\\GestionCompetidores.Data.csproj": {
-                "projectPath": "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Data\\GestionCompetidores.Data.csproj"
+              "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Data\\GestionCompetidores.Data.csproj": {
+                "projectPath": "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Data\\GestionCompetidores.Data.csproj"
               },
-              "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Servicio\\GestionCompetidores.Servicio.csproj": {
-                "projectPath": "C:\\ProyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Servicio\\GestionCompetidores.Servicio.csproj"
+              "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Servicio\\GestionCompetidores.Servicio.csproj": {
+                "projectPath": "C:\\proyectosCSharp\\GestionCompetidores2\\GestionCompetidores.Servicio\\GestionCompetidores.Servicio.csproj"
               }
             }
           }
@@ -217,7 +230,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

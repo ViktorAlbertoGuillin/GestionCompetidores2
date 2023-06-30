@@ -255,3 +255,8 @@ C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Web\bin\Debug\net6.0
 C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\ProyectosCSharp\GestionCompetidores2\GestionCompetidores.Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\proyectosCSharp\GestionCompetidores2\GestionCompetidores.Web\obj\Debug\net6.0\staticwebassets\msbuild.GestionCompetidores.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\proyectosCSharp\GestionCompetidores2\GestionCompetidores.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.GestionCompetidores.Web.props
+C:\proyectosCSharp\GestionCompetidores2\GestionCompetidores.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.GestionCompetidores.Web.props
+C:\proyectosCSharp\GestionCompetidores2\GestionCompetidores.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.GestionCompetidores.Web.props
+C:\proyectosCSharp\GestionCompetidores2\GestionCompetidores.Web\obj\Debug\net6.0\staticwebassets.pack.json

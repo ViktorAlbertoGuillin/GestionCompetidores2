@@ -7,13 +7,13 @@ namespace GestionCompetidores.Web.Controllers
     public class CompetidoresController : Controller
     {
         private readonly IDeporteServicio _deporteServicio;
-        private readonly ICompetidorServicio _competidorServicio; 
+        private readonly ICompetidorServicio _competidorServicio;
         public CompetidoresController(IDeporteServicio deporteServicio, ICompetidorServicio competidorServicio)
         {
             _deporteServicio = deporteServicio;
             _competidorServicio = competidorServicio;
         }
-        
+
         public IActionResult CrearCompetidor()
         {
             List<Deporte> deportes = _deporteServicio.ListarDeportes();
@@ -29,11 +29,17 @@ namespace GestionCompetidores.Web.Controllers
         public IActionResult ListarCompetidores()
         {
             List<Competidor> listaCompetidores = _competidorServicio.ListarCompetidores();
-            if(listaCompetidores != null)
+            if (listaCompetidores != null)
             {
                 return View(listaCompetidores);
             }
             return Redirect("Home");
+        }
+
+        public IActionResult ListarDeportes()
+        {
+            List<Deporte> listaDeportes = _deporteServicio.ListarDeportes();
+            return View(listaDeportes);
         }
     }
 }

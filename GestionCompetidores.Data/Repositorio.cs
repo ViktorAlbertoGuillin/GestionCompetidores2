@@ -2,7 +2,7 @@
 using GestionCompetidores.Data.Interface;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +11,7 @@ namespace GestionCompetidores.Data
 {
     public class Repositorio : IRepositorio
     {
-        private readonly GestionCompetidoresContext _contexto;
+        private  GestionCompetidoresContext _contexto;
         public Repositorio(GestionCompetidoresContext contexto)
         {
             _contexto = contexto;
@@ -30,9 +30,7 @@ namespace GestionCompetidores.Data
         public List<Competidor> ListarCompetidores()
         {
             //return _contexto.Competidors.Include(e => e.IdDeporteNavigation).ToList();
-            return _contexto.Competidors
-            .Include(s => s.IdDeporteNavigation)
-            .ToList();
+            return _contexto.Competidors.Include(s=> s.IdDeporteNavigation).ToList();
         }
     }
 }
