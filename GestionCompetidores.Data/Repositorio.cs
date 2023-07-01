@@ -1,8 +1,9 @@
 ﻿using GestionCompetidores.Data.EF;
 using GestionCompetidores.Data.Interface;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
+
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,10 +30,8 @@ namespace GestionCompetidores.Data
 
         public List<Competidor> ListarCompetidores()
         {
-            //return _contexto.Competidors.Include(e => e.IdDeporteNavigation).ToList();
-            return _contexto.Competidors
-            .Include(s => s.IdDeporteNavigation)
-            .ToList();
+           return _contexto.Competidors.Include(e => e.IdDeporteNavigation).ToList();
+          
         }
     }
 }

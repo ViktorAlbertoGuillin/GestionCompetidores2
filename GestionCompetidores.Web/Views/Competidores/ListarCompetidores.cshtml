@@ -2,11 +2,9 @@
 @model List<Competidor>
 
 
-<h1>ListarCompetidores</h1>
+<h1>Listar de Competidores</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+
 <table class="table">
     <thead>
         <tr>
@@ -20,13 +18,13 @@
         </tr>
     </thead>
     <tbody>
-@foreach (Competidor competidor in @Model) {
+@foreach (Competidor competidor in Model) {
         <tr>
             <td>
                     @competidor.NombreCompetidor
             </td>
             <td>
-                    @competidor.IdDeporte
+                    @competidor.IdDeporteNavigation.NombreDeporte
             </td>
             
         </tr>

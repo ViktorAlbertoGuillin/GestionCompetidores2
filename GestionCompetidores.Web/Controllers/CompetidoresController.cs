@@ -24,7 +24,8 @@ namespace GestionCompetidores.Web.Controllers
         public IActionResult GuardarCompetidor(Competidor competidor)
         {
             _competidorServicio.GuardarCompetidor(competidor);
-            return View("ListarCompetidores");
+            List<Competidor> listaCompetidores = _competidorServicio.ListarCompetidores();
+            return View("ListarCompetidores",listaCompetidores);
         }
         public IActionResult ListarCompetidores()
         {
