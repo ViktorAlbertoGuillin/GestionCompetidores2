@@ -19,8 +19,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aWRvcmVzXENyZWFyQ29tcGV0aWRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/ProyectosCSharp/GestionCompetidores2/GestionCompetidores.Web/Views/Competidores/EditarCompetidor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aWRvcmVzXEVkaXRhckNvbXBldGlkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/ProyectosCSharp/GestionCompetidores2/GestionCompetidores.Web/Views/Competidores/ListarCompetidores.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aWRvcmVzXExpc3RhckNvbXBldGlkb3Jlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectosCSharp/GestionCompetidores2/GestionCompetidores.Web/Views/Deportes/CrearDeporte.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwb3J0ZXNcQ3JlYXJEZXBvcnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectosCSharp/GestionCompetidores2/GestionCompetidores.Web/Views/Deportes/EditarDeporte.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwb3J0ZXNcRWRpdGFyRGVwb3J0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectosCSharp/GestionCompetidores2/GestionCompetidores.Web/Views/Deportes/ListarDeportes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwb3J0ZXNcTGlzdGFyRGVwb3J0ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/ProyectosCSharp/GestionCompetidores2/GestionCompetidores.Web/Views/Home/Index.cshtml]

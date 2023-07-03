@@ -25,5 +25,14 @@ namespace GestionCompetidores.Servicio
         {
             return _repositorio.ListarCompetidores();
         }
+
+        public Competidor BuscarCompetidorPorId(int Id)
+        {
+            return _repositorio.BuscarCompetidorPorId(Id);
+        }
+        public void EditarCompetidor(Competidor competidor)
+        {
+            _repositorio.EditarCompetidor(competidor);
+        }
     }
 }

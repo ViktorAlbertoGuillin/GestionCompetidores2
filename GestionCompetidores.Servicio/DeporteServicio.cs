@@ -21,5 +21,19 @@ namespace GestionCompetidores.Servicio
         {
             return _repositorio.ListarDeportes();
         }
+
+        public void AgregarDeporte(Deporte deporte)
+        {
+            _repositorio.AgregarDeporte(deporte);
+        }
+
+        public void EditarDeporte(Deporte deporte)
+        {
+            _repositorio.EditarDeporte(deporte);
+        }
+        public Deporte BuscarDeportePorId(int Id)
+        {
+            return _repositorio.BuscarDeportePorId(Id);
+        }
     }
 }

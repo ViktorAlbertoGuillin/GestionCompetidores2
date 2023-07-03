@@ -11,5 +11,7 @@ namespace GestionCompetidores.Servicio.Interface
     {
         void GuardarCompetidor(Competidor competidor);
         List<Competidor> ListarCompetidores();
+        Competidor BuscarCompetidorPorId(int Id);
+        void EditarCompetidor(Competidor competidor);
     }
 }

@@ -1,5 +1,6 @@
 ﻿@using GestionCompetidores.Data.EF
-@model List<Competidor>
+
+@model IEnumerable<GestionCompetidores.Data.EF.Competidor>
 
 
 <h1>Listar de Competidores</h1>
@@ -14,20 +15,24 @@
             <th>
                 Deporte
             </th>
-            <th></th>
+            <th>Accion/th>
         </tr>
     </thead>
     <tbody>
-@foreach (Competidor competidor in Model) {
-        <tr>
-            <td>
-                    @competidor.NombreCompetidor
-            </td>
-            <td>
-                    @competidor.IdDeporteNavigation.NombreDeporte
-            </td>
-            
-        </tr>
-}
+        @foreach (Competidor competidor in Model) {
+            <tr>
+                <td>
+                        @competidor.NombreCompetidor
+                </td>
+                <td>
+
+                        @competidor.IdDeporteNavigation.NombreDeporte
+
+                </td>
+                <td>
+                    <a href="EditarCompetidor/@competidor.IdCompetidor">Editar</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

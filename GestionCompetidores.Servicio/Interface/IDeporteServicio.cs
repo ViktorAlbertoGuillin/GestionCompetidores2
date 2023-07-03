@@ -10,5 +10,8 @@ namespace GestionCompetidores.Servicio.Interface
     public interface IDeporteServicio
     {
         List<Deporte> ListarDeportes();
+        void AgregarDeporte(Deporte deporte);
+        void EditarDeporte(Deporte deporte);
+        Deporte BuscarDeportePorId(int Id);
     }
 }

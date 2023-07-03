@@ -9,6 +9,6 @@ namespace GestionCompetidores.Data.EF
         public string? NombreCompetidor { get; set; }
         public int? IdDeporte { get; set; }
 
-        public virtual Deporte? IdDeporteNavigation { get; set; }
+        public virtual Deporte IdDeporteNavigation { get; set; }
     }
 }
