@@ -13,5 +13,6 @@ namespace GestionCompetidores.Servicio.Interface
         void AgregarDeporte(Deporte deporte);
         void EditarDeporte(Deporte deporte);
         Deporte BuscarDeportePorId(int Id);
+        void eliminarDeporteYCompetidores(int id);
     }
 }

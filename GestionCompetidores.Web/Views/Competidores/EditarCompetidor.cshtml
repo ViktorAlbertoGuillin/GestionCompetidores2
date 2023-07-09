@@ -1,0 +1,29 @@
+﻿
+@using GestionCompetidores.Data.EF;
+@{
+    var competidor = ViewBag.Competidor;
+    var deportes = ViewBag.Deportes;
+}
+
+<h1>Editar Competidor</h1>
+
+<h4>Competidor</h4>
+<hr />
+<div>
+    <form action="/Competidores/EditarCompetidor" method="post">
+        
+        <input type="hidden" name="IdCompetidor" value=@competidor.IdCompetidor />
+        <span>Nombre:</span>
+        <input type="text" name="NombreCompetidor" value= @competidor.NombreCompetidor /><br /><br />
+        <label>Deporte:</label>
+        <select name="IdDeporte">
+            @foreach (var deporte in deportes)
+            {
+                <option value="@deporte.IdDeporte">@deporte.NombreDeporte</option>
+            }
+        </select><br /><br />
+        <input type="submit" value="Guardar" />
+    </form>
+</div>
+
+

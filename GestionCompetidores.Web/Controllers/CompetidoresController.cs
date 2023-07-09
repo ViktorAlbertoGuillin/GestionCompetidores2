@@ -30,6 +30,8 @@ namespace GestionCompetidores.Web.Controllers
         public IActionResult ListarCompetidores()
         {
             List<Competidor> listaCompetidores = _competidorServicio.ListarCompetidores();
+            List<Deporte> deportes = _deporteServicio.ListarDeportes();
+            ViewBag.Deportes = deportes;
             if (listaCompetidores != null)
             {
                 return View(listaCompetidores);
@@ -53,7 +55,26 @@ namespace GestionCompetidores.Web.Controllers
         {
             _competidorServicio.EditarCompetidor(competidor);
             List<Competidor> listaCompetidores = _competidorServicio.ListarCompetidores();
-            return View("ListarDeportes", listaCompetidores);
+            return View("ListarCompetidores", listaCompetidores);
+        }
+        [HttpGet]
+        public IActionResult EliminarCompetidor(int Id)
+        {
+            _competidorServicio.EliminarCompetidor(Id);
+            List<Competidor> listaCompetidores = _competidorServicio.ListarCompetidores();
+            return View("ListarCompetidores", listaCompetidores);
+        }
+
+        public IActionResult Filtrar(int Id)
+        {
+            if (Id == 0)
+            {
+                return Redirect("/Competidores/ListarCompetidores");
+            }
+            List<Competidor> competidor = _competidorServicio.BuscarCompetidoresPorIdDeporte(Id);
+            List<Deporte> deportes = _deporteServicio.ListarDeportes();
+            ViewBag.Deportes = deportes;
+            return View("Listar", competidor);
         }
     }
 }

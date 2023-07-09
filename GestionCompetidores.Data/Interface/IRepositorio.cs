@@ -21,6 +21,8 @@ namespace GestionCompetidores.Data.Interface
 
         Deporte BuscarDeportePorId(int Id);
         Competidor BuscarCompetidorPorId(int Id);
-        
+        void EliminarCompetidor(int id);
+        List<Competidor> BuscarCompetidoresPorIdDeporte(int id);
+        void EliminarDeporteYCompetidor(int id);
     }
 }

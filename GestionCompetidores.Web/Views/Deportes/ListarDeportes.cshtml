@@ -1,0 +1,34 @@
+﻿@model IEnumerable<GestionCompetidores.Data.EF.Deporte>
+
+@{
+    ViewData["Title"] = "ListarDeportes";
+}
+
+<h1>Deportes</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Accion
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreDeporte)
+            </td>
+            <td>
+                    <a href="EditarDeporte/@item.IdDeporte">Editar</a>-<a href="EliminarDeporte/@item.IdDeporte">Eliminar</a>
+            </td>
+            
+        </tr>
+}
+    </tbody>
+</table>

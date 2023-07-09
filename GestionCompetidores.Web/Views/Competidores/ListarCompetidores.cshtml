@@ -1,26 +1,44 @@
 ﻿@using GestionCompetidores.Data.EF
 
 @model IEnumerable<GestionCompetidores.Data.EF.Competidor>
-
+@{
+    var deportes = ViewBag.Deportes;
+}
 
 <h1>Listar de Competidores</h1>
 
+<div>
+    <form method="post" asp-action="Filtrar" asp-controller="Competidores" style="display:flex; align-items:center">
 
+                <select name="IdDeporte" style="border:none; height:38px; background-color:aliceblue; border: 1px solid black; border-radius:5px;">
+               
+                    <option>Filtra por Deporte</option>
+                    @foreach (Deporte deporte in ViewBag.Deportes)
+                    {
+                        <option value="@deporte.IdDeporte">@deporte.NombreDeporte</option>
+                    }
+
+                </select>
+                <button class="btn btn-info" type="submit"> Filtrar </button>
+     </form>
+</div>
 <table class="table">
     <thead>
         <tr>
+           
             <th>
                 Nombre Competidor
             </th>
             <th>
                 Deporte
             </th>
-            <th>Accion/th>
+            <th>Accion </th>
         </tr>
     </thead>
     <tbody>
         @foreach (Competidor competidor in Model) {
             <tr>
+                
                 <td>
                         @competidor.NombreCompetidor
                 </td>
@@ -30,7 +48,7 @@
 
                 </td>
                 <td>
-                    <a href="EditarCompetidor/@competidor.IdCompetidor">Editar</a>
+                    <a href="EditarCompetidor/@competidor.IdCompetidor">Editar-</a> <a href="EliminarCompetidor/@competidor.IdCompetidor">Eliminar</a>
                 </td>
             </tr>
         }

@@ -13,5 +13,7 @@ namespace GestionCompetidores.Servicio.Interface
         List<Competidor> ListarCompetidores();
         Competidor BuscarCompetidorPorId(int Id);
         void EditarCompetidor(Competidor competidor);
+        void EliminarCompetidor(int Id);
+        List<Competidor> BuscarCompetidoresPorIdDeporte(int Id);
     }
 }

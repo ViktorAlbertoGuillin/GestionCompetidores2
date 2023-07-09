@@ -47,23 +47,42 @@ namespace GestionCompetidores.Data
         }
         public Deporte BuscarDeportePorId(int Id)
         {
-            Deporte deporte = _contexto.Deportes.Find(Id);
+            Deporte deporte = _contexto.Deportes.FirstOrDefault(c => c.IdDeporte == Id);
             return deporte;
         }
 
         public Competidor BuscarCompetidorPorId(int Id)
         {
-            Competidor competidor = _contexto.Competidors.Find(Id);
+            Competidor competidor = _contexto.Competidors.FirstOrDefault(c => c.IdCompetidor == Id); 
             return competidor;
         }
         public void EditarCompetidor(Competidor competidorEditado)
         {
-            Competidor competidor = new Competidor();
-            competidor = BuscarCompetidorPorId(competidorEditado.IdCompetidor);
-            competidor.NombreCompetidor = competidorEditado.NombreCompetidor;
-            competidor.IdDeporte = competidorEditado.IdDeporte;
-            _contexto.Competidors.Update(competidor);
+            Competidor competidor = BuscarCompetidorPorId(competidorEditado.IdCompetidor);
+            if (competidor != null)
+            {
+                competidor.NombreCompetidor = competidorEditado.NombreCompetidor;
+                competidor.IdDeporte = competidorEditado.IdDeporte;  
+                _contexto.SaveChanges();
+            }
+        }
+
+        public void EliminarCompetidor(int Id)
+        {
+            Competidor competidor = _contexto.Competidors.FirstOrDefault(c => c.IdCompetidor == Id);
+            _contexto.Competidors.Remove(competidor);
             _contexto.SaveChanges();
+        }
+
+        public List<Competidor> BuscarCompetidoresPorIdDeporte(int id)
+        {
+            List<Competidor> listaCompetidoresPorIdDeporte = _contexto.Competidors.Include(j=>j.IdDeporteNavigation).Where(c => c.IdDeporte == id).ToList();
+            return listaCompetidoresPorIdDeporte;
+        }
+
+        public void EliminarDeporteYCompetidor(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<GestionCompetidores.Data.EF.Competidor>
+
+@{
+    ViewData["Title"] = "EliminarDeporte";
+}
+
+<h2>Estos competidores realizan el deporte que ud. quiere eliminar</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreCompetidor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdDeporteNavigation.NombreDeporte)
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreCompetidor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdDeporteNavigation.NombreDeporte)
+            </td>
+            
+        </tr>
+}
+        
+    </tbody>
+    
+</table>
+<p>
+    <label>Si elimina este deporte tambien se eliminaran los competidores que lo practican.</label><br />
+    <label>¿Esta seguro de hacerlo?</label>
+    <a href="EliminarDeportesYCompetidores/ @Html.DisplayNameFor(model => model.IdDeporte)" class="btn btn-danger">Si, Eliminar</a>
+    <a href="../ListarDeportes" class="btn btn-info">No, Volver</a>
+</p>

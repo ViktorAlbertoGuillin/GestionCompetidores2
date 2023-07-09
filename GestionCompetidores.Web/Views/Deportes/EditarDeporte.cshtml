@@ -1,0 +1,32 @@
+﻿@model GestionCompetidores.Data.EF.Deporte
+
+@{
+    ViewData["Title"] = "EditarDeporte";
+}
+
+<h1>Editar Deporte</h1>
+
+<h4>Deporte</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="Deportes" asp-action="EditarDeporte" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdDeporte" />
+            <div class="form-group">
+                <label asp-for="NombreDeporte" class="control-label"></label>
+                <input asp-for="NombreDeporte" class="form-control" />
+                <span asp-validation-for="NombreDeporte" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver</a>
+</div>
+
