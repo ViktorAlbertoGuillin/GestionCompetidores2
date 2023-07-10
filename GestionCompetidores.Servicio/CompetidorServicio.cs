@@ -39,9 +39,9 @@ namespace GestionCompetidores.Servicio
         {
             _repositorio.EliminarCompetidor(Id);
         }
-        public List<Competidor> BuscarCompetidoresPorIdDeporte(int Id)
+        public List<Competidor> BuscarCompetidoresPorIdDeporte(int IdDeporte)
         {
-            return _repositorio.BuscarCompetidoresPorIdDeporte(Id);
+            return _repositorio.BuscarCompetidoresPorIdDeporte(IdDeporte);
         }
     }
 }

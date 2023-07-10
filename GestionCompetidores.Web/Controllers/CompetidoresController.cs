@@ -65,16 +65,17 @@ namespace GestionCompetidores.Web.Controllers
             return View("ListarCompetidores", listaCompetidores);
         }
 
-        public IActionResult Filtrar(int Id)
+        [HttpPost]
+        public IActionResult Filtrar(int IdDeporte)
         {
-            if (Id == 0)
+            if (IdDeporte == 0)
             {
                 return Redirect("/Competidores/ListarCompetidores");
             }
-            List<Competidor> competidor = _competidorServicio.BuscarCompetidoresPorIdDeporte(Id);
+            List<Competidor> competidores = _competidorServicio.BuscarCompetidoresPorIdDeporte(IdDeporte);
             List<Deporte> deportes = _deporteServicio.ListarDeportes();
             ViewBag.Deportes = deportes;
-            return View("Listar", competidor);
+            return View("ListarCompetidores", competidores);
         }
     }
 }

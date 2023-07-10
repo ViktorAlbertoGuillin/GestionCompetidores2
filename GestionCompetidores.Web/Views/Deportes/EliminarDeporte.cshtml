@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "EliminarDeporte";
+    int id = ViewBag.Id; 
 }
 
 <h2>Estos competidores realizan el deporte que ud. quiere eliminar</h2>
@@ -38,6 +39,6 @@
 <p>
     <label>Si elimina este deporte tambien se eliminaran los competidores que lo practican.</label><br />
     <label>¿Esta seguro de hacerlo?</label>
-    <a href="EliminarDeportesYCompetidores/ @Html.DisplayNameFor(model => model.IdDeporte)" class="btn btn-danger">Si, Eliminar</a>
+    <a href="/Deportes/EliminarDeportesYCompetidores/@id" class="btn btn-danger">Si, Eliminar</a>
     <a href="../ListarDeportes" class="btn btn-info">No, Volver</a>
 </p>

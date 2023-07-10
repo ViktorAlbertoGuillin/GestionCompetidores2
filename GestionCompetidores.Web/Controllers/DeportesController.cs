@@ -50,13 +50,23 @@ namespace GestionCompetidores.Web.Controllers
         public IActionResult EliminarDeporte(int Id)
         {
             List<Competidor> listaCompetidores = _competidorServicio.BuscarCompetidoresPorIdDeporte(Id);
-            return View(listaCompetidores);
+            if (listaCompetidores.Count == 0)
+            {
+                EliminarDeportesYCompetidores(Id);
+                return Redirect("Home");
+            }
+            else {
+                ViewBag.Id = Id;
+                return View(listaCompetidores);
+            }
+                
         }
         [HttpGet]
         public IActionResult EliminarDeportesYCompetidores(int Id)
         {
             _deporteServicio.eliminarDeporteYCompetidores(Id);
-            return View("listarDeportes");
+            List<Deporte> listaDeportes = _deporteServicio.ListarDeportes();
+            return View("listarDeportes",listaDeportes);
         }
     }
 }

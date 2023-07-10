@@ -74,15 +74,20 @@ namespace GestionCompetidores.Data
             _contexto.SaveChanges();
         }
 
-        public List<Competidor> BuscarCompetidoresPorIdDeporte(int id)
+        public List<Competidor> BuscarCompetidoresPorIdDeporte(int IdDeporte)
         {
-            List<Competidor> listaCompetidoresPorIdDeporte = _contexto.Competidors.Include(j=>j.IdDeporteNavigation).Where(c => c.IdDeporte == id).ToList();
+            List<Competidor> listaCompetidoresPorIdDeporte = _contexto.Competidors.Include(j=>j.IdDeporteNavigation).Where(c => c.IdDeporte == IdDeporte).ToList();
             return listaCompetidoresPorIdDeporte;
         }
 
-        public void EliminarDeporteYCompetidor(int id)
+        public void EliminarDeporteYCompetidor(int IdDeporte)
         {
-            throw new NotImplementedException();
+            List<Competidor> listaCompetidoresPorIdDeporte = _contexto.Competidors.Where(c => c.IdDeporte == IdDeporte).ToList();
+
+            _contexto.Competidors.RemoveRange(listaCompetidoresPorIdDeporte);
+            Deporte deporte = _contexto.Deportes.FirstOrDefault(c => c.IdDeporte == IdDeporte);
+            _contexto.Deportes.Remove(deporte);
+            _contexto.SaveChanges();
         }
     }
 }
